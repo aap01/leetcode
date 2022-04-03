@@ -56,13 +56,6 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         length = len(nums)
-        if length == 1:
-            return nums
-        elif length == 2:
-            if nums[0] == nums[1]:
-                return [nums[0]]
-            return nums
-        
         minRepeat = length//3
         m1 = None
         c1 = 0
