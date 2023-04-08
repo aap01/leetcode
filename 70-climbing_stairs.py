@@ -17,7 +17,8 @@ class Solution:
         )
 
     """
-    The solution is the permutation of 1s(repeatitive) and 2s(repeatitive) that sum upto n
+    The solution is the permutation of 1s(repetitive) and
+    2s(repetitive) that sum upto n
     """
 
     def climbStairs(
